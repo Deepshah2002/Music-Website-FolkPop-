@@ -1,0 +1,1297 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   
+   
+}
+
+.banner
+{
+   position:relative;
+   width: 100%;
+   min-height:110vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: url(./musicwebwallpaper.jpg);
+   background-size: cover;
+   
+  
+}
+header{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 40px 40px;
+   z-index: 10000;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   transition: 0.5s;
+}
+header.sticky
+{
+   background: rgb(39, 39, 39);
+   padding: 10px 40px;
+   box-shadow: 0 5px 20px rgba(0,0,0,0,05);
+   height: 70px;
+}
+header .Company{
+   
+   color:#3bffeb;
+   font-weight: 500;
+   font-size: 2.5em;
+   text-decoration: none;
+   font-family: 'Oswald';
+}
+header .Company:hover
+{
+   
+   color:#3bffeb;
+   text-decoration: none;
+
+}
+
+header .Company span
+{
+   color: #ff0479; 
+   
+}
+header .navbar
+{
+   position: relative;
+   display: flex;
+   float: right;
+}
+
+header .navbar li
+{
+   list-style: none;
+   margin-left: 30px;
+}
+
+header .navbar li a
+{
+   font-family: 'Oswald';
+   text-decoration: none;
+   color: #ff0479;
+   font-size: 20px;
+   
+}
+header .navbar li a:hover
+{
+   color:#006b96;
+   
+}
+
+
+
+
+.content
+{
+   width: 100%;
+   position: absolute;
+   top: 27%;
+}
+
+ 
+
+.banner .Caption1
+{
+   max-width: 900px;
+   margin-left:6%;
+   line-height: 80px;
+   float:left;
+   font-size: 70px;
+   font-family: 'Oswald';
+}
+
+.banner .Caption2
+{
+   float:right;
+   max-width: 900px;
+   margin-right: 6%;
+   line-height: 80px;
+   font-size: 70px;
+   font-family: 'Oswald';
+   display:flex;
+}
+
+.play
+{
+   color: #ff0479;
+   background: transparent; 
+   border:0px;
+   margin-top:200px;
+   display: inline-block;
+   margin-left: -20%;
+   transition:0.5s
+}
+.play:hover{
+ 
+   cursor: pointer;
+}
+.play:focus{
+   outline: 0;
+}
+
+section
+{
+   padding:70px;
+}
+
+.row
+{
+   position: relative;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.card_text
+{
+   font-size:20px;
+   font-family:'Calibri',sans-serif
+}
+.row .col50
+{
+   position: relative;
+   width:48%;
+}
+
+.title_text
+{
+   font-size: 2.5em;
+  
+}
+.title_text span{
+   color: #ff0479;
+   font-weight: 700;
+   font-size: 1.5em;
+}
+
+.row .col50 .premium_image
+{
+ position: relative;
+ width: 100%;
+ min-height:400px;
+}
+.row .col50 .premium_image img
+{
+position: absolute;
+top:0;
+left: 0;
+width: 110%;
+height:90%;
+object-fit:cover;
+min-height: 80%;
+
+}
+.card_premium
+{
+   background: rgba(238, 206, 206, 0.466);
+   width:90%;
+   height:480px;
+   transition: 0.3s;
+   border-radius: 10px;
+   position: absolute;
+   margin-left:50px;
+   margin-top:30px;
+   text-decoration: none;
+  
+}
+.title
+{
+   align-items: center;
+   justify-content: center;
+   display: flex;
+
+}
+.title h2
+{
+   font-size: 2.5em;
+}
+.title h2 span
+{
+   color:#ff0479;
+}
+
+.card_sponsor .content
+{
+   justify-content: center;
+   
+}
+.card_sponsor
+{
+   background: rgba(238, 206, 206, 0.466);
+   width:90%;
+   height:600px;
+   transition: 0.3s;
+   border-radius: 10px;
+   
+   position: absolute;
+   margin-left:50px;
+   margin-top:550px;
+   text-decoration: none;
+}
+
+.card_Button
+{
+   background-color: #ff0479;
+   color: white;
+   font-family: 'Oswald', sans-serif;
+   margin-left: 10px;
+   
+   position: relative;
+   margin-top:50px;
+   font-size:25px;
+   padding: 20px;
+   border-radius: 50px;
+   border:0px;
+   cursor: pointer;
+}
+
+.card_Button:hover
+{
+   background-color:#ff0479a4;
+   
+   color: white;
+}
+.card_Button:focus
+{
+   outline: 0;
+}
+.card_Button a{
+   
+   text-decoration: none;
+   color:white;
+}
+
+
+.card1 {
+   
+  background-image: linear-gradient(#0bf05b,#3b3738);
+   width:260px;
+   height:400px;
+   box-shadow: 0 4px 9px 0 rgba(0,0,0,0.3);
+   transition: 0.3s;
+   border-radius: 10px;
+   font-family: 'Oswald';
+   position: absolute;
+   
+   text-decoration: none;
+   
+ 
+}
+
+/* On mouse-over, add a deeper shadow */
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+  transform:translateY(-20px);
+  background-image: linear-gradient(#0bf05b,#3b3738);
+  text-decoration: none;
+}
+
+.logo1
+{
+  
+   position: absolute;
+   margin-top: 255px;
+   margin-left: 5px;
+   height:80px;
+   width: 90%;
+   background: transparent;
+   padding: 10px;
+}
+
+.card_text1
+{
+   
+  position: relative;
+   padding: 10px;
+   margin-top: 30px;
+   margin-left: 7px;
+   font-size: 40px;
+   font-weight: 400;
+   text-align: center;
+   color:white;
+   
+}
+
+
+.card2 {
+   /* Add shadows to create the "card" effect */
+   background-image: linear-gradient(#ff00bf,#841588);
+   width:260px;
+   height:400px;
+   box-shadow: 0 4px 9px 0 rgba(0,0,0,0.3);
+   transition: 0.3s;
+   border-radius: 10px;
+   font-family: 'Oswald';
+   position: absolute;
+   align-items: center;
+   text-decoration: none;
+   margin-left: 370px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card2:hover {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+   transform:translateY(-20px);
+   background-image: linear-gradient(#ff00bf,#841588);
+   text-decoration: none;
+   
+}
+
+.logo2
+{
+   position: absolute;
+   margin-top: 250px;
+   margin-left: 80px;
+   height: 100px;
+   width: 100px;
+   background: transparent;
+}
+
+.card_text2
+{
+   position: relative;
+   padding: 10px;
+   margin-top: 30px;
+   margin-left: 7px;
+   font-size: 40px;
+   font-weight: 400;
+   text-align: center;
+   color:white;
+}
+
+
+.card3 {
+   /* Add shadows to create the "card" effect */
+  background-image: linear-gradient(#ff9100,#fffb00);
+  
+   width:260px;
+   height:400px;
+   box-shadow: 0 4px 9px 0 rgba(0,0,0,0.3);
+   transition: 0.3s;
+   border-radius: 10px;
+   font-family: 'Oswald';
+   position: absolute;
+   float: right;
+   text-decoration: none;
+   margin-right: 10px;
+   margin-left: 750px;
+ 
+}
+
+/* On mouse-over, add a deeper shadow */
+.card3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+  transform:translateY(-20px);
+   background-image: linear-gradient(#ff9100,#fffb00);
+   text-decoration: none;
+}
+
+.logo3
+{
+   position: absolute;
+   margin-top: 280px;
+   margin-left: 80px;
+   height: 100px;
+   width: 100px;
+   background: transparent;
+}
+
+.card_text3
+{
+   position: absolute;
+   padding: 10px;
+   margin-top: 30px;
+   margin-left: 7px;
+   font-size: 40px;
+   font-weight: 400;
+   text-align: center;
+   color:white;
+}
+
+.card_songs
+{
+   background: rgba(238, 206, 206, 0.466);
+   width:90%;
+   height:480px;
+   transition: 0.3s;
+   border-radius: 10px;
+   position: absolute;
+   margin-left:50px;
+   margin-top:1190px;
+   text-decoration: none;
+}
+.search_box
+{
+   margin-top: 150px;
+   margin-left: 125px;
+   font-size: 25px;
+
+}
+input::placeholder
+{
+   font-size: 20px;
+   font-family: 'Calibri';
+   padding: 15px 15px;
+}
+input
+{
+   border: 0px;
+}
+
+
+.search_box .search_button
+{
+   color: black;
+   text-decoration: none;
+}
+.search_button:hover
+{
+   color: rgba(0, 0, 0, 0.747);
+}
+.card_pricing .content
+{
+   justify-content: center;
+   
+}
+.card_pricing
+{
+   background: rgba(238, 206, 206, 0.466);
+   width:90%;
+   height:600px;
+   transition: 0.3s;
+   border-radius: 10px;
+   
+   position: absolute;
+   margin-left:50px;
+   margin-top:1700px;
+   text-decoration: none;
+}
+.card_pricing h2
+{
+   font-size: 3.5em;
+   margin-top: 30px;
+}
+.card_pricing .Pricing_text
+{
+   font-size:20px;
+   font-family:'Calibri',sans-serif;
+   margin-top: 100px;
+   position: relative;
+}
+
+.Pricing_title_text span
+{
+   color: #ff0479;
+}
+
+.TandC
+{
+   font-size: 10px;
+}
+
+.card_support
+{
+   background: rgba(238, 206, 206, 0.466);
+   width:90%;
+   height:600px;
+   transition: 0.3s;
+   border-radius: 10px;
+   position: absolute;
+   margin-left:50px;
+   margin-top:2330px;
+   text-decoration: none;
+}
+.card_support h2
+{
+   font-size: 2.5em;
+   margin-top: 30px;
+   
+   
+}
+.card_support .Support_text
+{
+   font-size:20px;
+   font-family:'Calibri',sans-serif;
+   margin-top: 100px;
+   position: relative;
+}
+
+.Support_title_text span
+{
+   color: #ff0479;
+   font-weight: 700;
+   font-size: 1.5em;
+}
+.checkbutton
+{
+   font-size: 20px;
+   float: right;
+   line-height: 80px;
+   color: white;
+   position: relative;
+   margin-right: 40px;
+   cursor: pointer;
+   display: none;
+}
+#checkbox
+{
+   display:none;
+}
+
+
+footer
+{
+   
+   
+   
+   min-height:60vh;
+   
+   background-color: rgb(24, 23, 23);
+   margin-top: 3000px;
+   padding: 30px;
+   color: white;
+   width: 100%;
+   height: auto;
+   position: relative;
+   
+   
+       
+   
+
+}
+
+footer .container .sec_about
+{
+        
+   width:32%;     
+   height:31px;
+   float: left;
+}
+footer .container .sec_about h2
+{
+   font-family: 'Oswald';
+   position: relative;
+   margin-bottom: 15px;
+}
+footer .container .sec_about h2 span
+{
+   color: #ff0479;
+}
+footer .container .sec_about p span
+{
+   
+   font-family: 'Oswald';
+   color:#ff0479;
+}
+
+.social
+{
+   margin-top: 20px;
+   display: flex;
+}
+.social li
+{
+   list-style: none;
+}
+
+.social li a
+{
+   display: inline-block;
+   width:40px;
+   height: 40px;
+   background: #ff0479;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 10px;
+   text-decoration: none;
+   border-radius: 3px;
+   color: black;
+
+}
+.social li a:hover
+{
+   background: #ff0479b4;
+}
+footer ul li
+{
+   list-style: none;
+   
+}
+
+footer .container .sec_quicklinks
+{
+        
+   width:12%;     
+   height:31px;
+   float: left;
+   margin-left: 130px;
+   
+}
+footer .container .sec_quicklinks h2
+{
+   font-family: 'Oswald';
+   position: relative;
+   margin-bottom: 15px;
+}
+footer .container .sec_quicklinks h2 span
+{
+   color: #ff0479;
+}
+
+footer .container .sec_quicklinks a
+{
+   text-decoration: none;
+   color: white;
+}
+
+footer .container .sec_quicklinks a:hover
+{
+   text-decoration: none;
+   color: rgba(255, 255, 255, 0.63);
+   cursor: pointer;
+}
+
+footer .container .sec_contact
+{
+        
+   width:15%;     
+   height:31px;
+   float: right;
+   margin-right: 100px;
+   clear: both;
+   margin-left: -100px;
+}
+footer .container .sec_contact h2
+{
+   font-family: 'Oswald';
+   position: relative;
+   margin-bottom: 15px;
+   margin-top: -28px;
+  
+   
+}
+footer .container .sec_contact h2 span
+{
+   color: #ff0479;
+}
+
+footer .container .sec_contact a
+{
+   text-decoration: none;
+   color: white;
+   
+}
+
+footer .container .sec_contact a:hover
+{
+   text-decoration: none;
+   color: rgba(255, 255, 255, 0.63);
+   cursor: pointer;
+}
+
+/*Pricing.html*/
+.card_student_pricing .content
+{
+   justify-content: center;
+   
+}
+.card_student_pricing
+{
+   background: rgba(238, 206, 206, 0.466);
+   width:80%;
+   height:600px;
+   transition: 0.3s;
+   border-radius: 10px;
+   position: absolute;
+   margin-left:50px;
+   margin-top:170px;
+   text-decoration: none;
+}
+.card_student_pricing h2
+{
+   font-size: 3.5em;
+   margin-top: 30px;
+}
+.card_student_pricing .Pricing_text
+{
+   font-size:20px;
+   font-family:'Calibri',sans-serif;
+   margin-top: 100px;
+   position: relative;
+}
+
+
+.card_family_pricing .content
+{
+   justify-content: center;
+   
+}
+.card_family_pricing
+{
+   background: rgba(238, 206, 206, 0.466);
+   width:80%;
+   height:470px;
+   transition: 0.3s;
+   border-radius: 10px;
+   
+   position: absolute;
+   margin-left:50px;
+   margin-top:950px;
+   text-decoration: none;
+}
+.card_family_pricing h2
+{
+   font-size: 3.5em;
+   margin-top: 30px;
+}
+.card_family_pricing .Pricing_text
+{
+   font-size:20px;
+   font-family:'Calibri',sans-serif;
+   margin-top: 100px;
+   position: relative;
+}
+
+
+.card_individual_pricing .content
+{
+   justify-content: center;
+   
+}
+.card_individual_pricing
+{
+   background: rgba(238, 206, 206, 0.466);
+   width:80%;
+   height:470px;
+   transition: 0.3s;
+   border-radius: 10px;
+   position: absolute;
+   margin-left:50px;
+   margin-top:1600px;
+   text-decoration: none;
+}
+.card_individual_pricing h2
+{
+   font-size: 3.5em;
+   margin-top: 30px;
+}
+.card_individual_pricing .Pricing_text
+{
+   font-size:20px;
+   font-family:'Calibri',sans-serif;
+   margin-top: 100px;
+   position: relative;
+}
+
+.card_duo_pricing .content
+{
+   justify-content: center;
+   
+}
+.card_duo_pricing
+{
+   background: rgba(238, 206, 206, 0.466);
+   width:80%;
+   height:470px;
+   transition: 0.3s;
+   border-radius: 10px;
+   
+   position: absolute;
+   margin-left:50px;
+   margin-top:2270px;
+   text-decoration: none;
+}
+.card_duo_pricing h2
+{
+   font-size: 3.5em;
+   margin-top: 30px;
+}
+.card_duo_pricing .Pricing_text
+{
+   font-size:20px;
+   font-family:'Calibri',sans-serif;
+   margin-top: 100px;
+   position: relative;
+}
+/*Songs.html*/
+.SBL a
+{
+   text-decoration: none;
+   color: #ff0479;
+}
+.SBL a:hover
+{
+   text-decoration: none;
+   color:#006b96;
+}
+
+.columnABC {
+  float: left;
+  width: 31.33%;
+  margin-left: 25px;
+  padding: 10px;
+}
+
+.columnABC h2{
+   padding: 20px;
+}
+.columnABC p{
+   padding: 5px;
+}
+.columnABC a{
+   text-decoration: none;
+   color:#006b96;
+}
+.columnABC a:hover{
+   text-decoration: none;
+   color:#ff0479;
+}
+.columnDEF {
+  float: left;
+  width: 31.33%;
+  margin-left: 25px;
+  padding: 10px;
+}
+
+.columnDEF h2{
+   padding: 20px;
+}
+.columnDEF p{
+   padding: 5px;
+}
+.columnDEF a{
+   text-decoration: none;
+   color:#006b96;
+}
+.columnDEF a:hover{
+   text-decoration: none;
+   color:#ff0479;
+}
+.columnGHI {
+  float: left;
+  width: 31.33%;
+  margin-left: 25px;
+  padding: 10px;
+}
+
+.columnGHI h2{
+   padding: 20px;
+}
+.columnGHI p{
+   padding: 5px;
+}
+.columnGHI a{
+   text-decoration: none;
+   color:#006b96;
+}
+.columnGHI a:hover{
+   text-decoration: none;
+   color:#ff0479;
+}
+.columnJKL {
+  float: left;
+  width: 31.33%;
+  margin-left: 25px;
+  padding: 10px;
+}
+
+.columnJKL h2{
+   padding: 20px;
+}
+.columnJKL p{
+   padding: 5px;
+}
+.columnJKL a{
+   text-decoration: none;
+   color:#006b96;
+}
+.columnJKL a:hover{
+   text-decoration: none;
+   color:#ff0479;
+}
+.columnMNO {
+  float: left;
+  width: 31.33%;
+  margin-left: 25px;
+  padding: 10px;
+}
+
+.columnMNO h2{
+   padding: 20px;
+}
+.columnMNO p{
+   padding: 5px;
+}
+.columnMNO a{
+   text-decoration: none;
+   color:#006b96;
+}
+.columnMNO a:hover{
+   text-decoration: none;
+   color:#ff0479;
+}
+.columnPQR {
+  float: left;
+  width: 31.33%;
+  margin-left: 25px;
+  padding: 10px;
+}
+
+.columnPQR h2{
+   padding: 20px;
+}
+.columnPQR p{
+   padding: 5px;
+}
+.columnPQR a{
+   text-decoration: none;
+   color:#006b96;
+}
+.columnPQR a:hover{
+   text-decoration: none;
+   color:#ff0479;
+}
+.row:after {
+  content: "";
+  display: table;
+  
+}
+.search_support
+{
+   margin-top: 50px;
+   margin-left: 230px;
+   
+   
+}
+.search_support .search_button
+{
+   color: black;
+   text-decoration: none;
+}
+.search_button:hover
+{
+   color: rgba(0, 0, 0, 0.747);
+}
+
+.card_search_support .content
+{
+   justify-content: center;
+   
+}
+.card_search_support
+{
+   background: rgba(238, 206, 206, 0.466);
+   width:90%;
+   height:470px;
+   transition: 0.3s;
+   border-radius: 10px;
+   
+   position: absolute;
+   margin-left:50px;
+   margin-top:10px;
+   text-decoration: none;
+}
+.card_search_support h1
+{
+   font-size: 3.5em;
+   margin-top: 30px;
+}
+.card_search_support .support_search_text
+{
+   font-size:20px;
+   font-family:'Calibri',sans-serif;
+   margin-top: 100px;
+   position: relative;
+   
+}
+
+.columnFAQ {
+  float: left;
+  width: 31.33%;
+  margin-left: 14px;
+  padding: 10px;
+  margin-top: 150px;
+  height: 300px;
+  border-radius: 5%;
+}
+
+.columnFAQ h2{
+   padding: 20px;
+   text-align: center;
+}
+
+.columnFAQ a{
+   text-decoration: none;
+   color:#006b96;
+   padding: 15px;
+}
+.columnFAQ a:hover{
+   text-decoration: none;
+   color:#ff0479;
+}
+.columnFAQ span
+{
+   color:#ff0479;
+}
+
+.card_Login
+{
+   background: rgba(238, 206, 206, 0.466);
+   width:50%;
+   height:600px;
+   transition: 0.3s;
+   border-radius: 10px;
+   position: absolute;
+   margin-left:300px;
+   margin-top:200px;
+   text-decoration: none;
+   
+}
+.card_Login h2
+{
+   font-size: 2.5em;
+   margin-top: 30px;
+   
+   
+}
+.card_Login .Login_text
+{
+   font-size:20px;
+   font-family:'Calibri',sans-serif;
+   margin-top: 100px;
+   position: relative;
+}
+.Login_title_text
+{
+   text-align: center;
+}
+.Login_title_text span
+{
+   color:#ff0479;
+   font-family: 'Oswald';
+}
+.Login_card_Button
+{
+   background-color: #ff0479;
+   color: white;
+   font-family: 'Oswald', sans-serif;
+   margin-left: 10px;
+   width: 150px;
+   position: relative;
+   margin-top:50px;
+   font-size:25px;
+   padding: 15px;
+   border-radius: 50px;
+   border:0px;
+   cursor: pointer;
+}
+
+.Login_card_Button:hover
+{
+   background-color:#ff0479a4;
+   
+   color: white;
+}
+.Login_card_Button:focus
+{
+   outline: 0;
+}
+.Login_card_Button a{
+   
+   text-decoration: none;
+   color:white;
+}
+@media (max-width: 858px)
+{
+   label.header
+   {
+      font-size: 35px;
+      padding-left: 20px;
+   }
+   .checkbutton
+   {
+      display: block;
+   }
+   ul
+   {
+      
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      top: 0px;
+      left: -100%;
+      text-align: center;
+      transition: all .3s;
+      background: #3bffeb;
+      z-index: 10;
+   }
+   nav ul li
+   {
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+
+   }
+   nav ul li a
+   {
+      font-size: 20px;
+   }
+   a:hover{
+      background:none;
+      color:#006b96;
+   }
+   #checkbox:checked~ ul
+   {
+      left: 0;
+   }
+   
+   .Caption1
+   {
+      font-size: 7px;
+      position: absolute;
+      top: 190px;
+      left: -20px;
+   }
+   
+   .Caption2
+   {
+     font-size: 7px;
+     position: absolute;
+      top: 100px;
+      left: 40px;
+   }
+   
+
+   .Caption3
+   {
+      position: absolute;
+      
+   }
+   
+   .Caption4
+   {
+     
+      position: absolute;
+      top:-10px;
+      margin-left: -300px;
+      
+   }
+   
+   .play
+   {
+      position: relative;
+      top:-335px;
+      font-size:9px;
+      margin-left: 75px;
+   }
+   .pause
+   {
+      position: relative;
+      top:-370px;
+      font-size: 8px;
+      margin-left: 8px;
+      
+   }
+   img
+   {
+      width: 100%;
+      height: 100%;
+      margin-top: 90px;
+     
+   }
+   .Premium
+   {
+      position: relative;
+      margin-top: -100px;
+   }
+   .Premium_Text
+   {
+      font-size: 30px;
+      margin-left: 10px;
+      padding: 10px;
+   }
+   .Premium_Button
+   {
+      margin-left: 50px;
+   }
+
+   .Premium_image
+   {
+      margin-top: -25px;
+   }
+
+   .card1
+   {
+      width: 25%;
+      height: 50%;
+      margin-left: 40px;
+
+   }
+   .card_text1
+   {
+      font-size: 20px;
+      margin-left: 5px;
+   }
+
+   .logo1
+   {
+      width: 75%;
+      height: 20%;
+      margin-top: 150px;
+      margin-left: 10px;
+   }
+   .card2
+   {
+      width: 25%;
+      height: 50%;
+      margin-left: 220px;
+
+   }
+   .card_text2
+   {
+      font-size: 20px;
+      margin-left: 5px;
+   }
+
+   .logo2
+   {
+      width: 50%;
+      height: 30%;
+      margin-top: 130px;
+      margin-left: 40px;
+   }
+   .card3
+   {
+      width: 25%;
+      height: 50%;
+      margin-left: 410px;
+
+   }
+   .card_text3
+   {
+      font-size: 20px;
+      margin-left: 5px;
+   }
+
+   .logo3
+   {
+      width: 50%;
+      height: 30%;
+      margin-top: 160px;
+      margin-left: 40px;
+   }
+   .card2:hover
+   {
+      background-image: linear-gradient(#ff00bf,#841588);
+   }
+   
+}
